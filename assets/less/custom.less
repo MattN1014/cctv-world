@@ -1,0 +1,90 @@
+//variables
+
+@im: !important;
+@primary: #fe0000;
+@secondry: #0097E2;
+@b: #000000;
+@w: #ffffff;
+
+/*===========================================================
+                    Site Wide Styles
+===========================================================*/
+
+html,
+body {
+    background-color: @w;
+    font-family: 'Kavivanar', cursive;
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    /*padding-top: 64px;*/
+}
+
+.site-wrapper {
+    min-height: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+.disabled-link {
+    color: lighten(@b, 90%);
+    pointer-events: none;
+}
+
+/*===========================================================
+                    Typography 
+===========================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: @primary;
+    font-family: 'Audiowide', cursive;
+}
+
+p {
+    color: @secondry;
+    font-family: 'Kavivanar', cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/*===========================================================
+                    Header Styles
+===========================================================*/
+
+header {
+    background-color: transparent;
+}
+
+header .site-title {
+    color: @primary;
+    font-family: 'Audiowide', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+header h4.site-tag {
+    color: @secondry;
+    font-family: 'Kavivanar', cursive;
+    font-size: 18px;
+}
+
+/*===========================================================
+                    Navigation Styles
+===========================================================*/
+
+.navbar-default {
+    background-color: @w;
+    border-bottom: 0;
+    border-bottom: 1px solid lighten(@b, 85%);
+    border-top: 1px solid lighten(@b, 85%);
+}
