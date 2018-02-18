@@ -1,7 +1,7 @@
 //variables
 
 @im: !important;
-@primary: #fe0000;
+@primary: #ef0000;
 @secondry: #0097E2;
 @b: #000000;
 @w: #ffffff;
@@ -30,13 +30,45 @@ body {
     padding: 0;
 }
 
-.grecaptcha-badge {
-    display: none;
+
+/*===========================================================
+                    Custom Element Styles
+===========================================================*/
+
+.btn-ccw {
+    background-color: @primary;
+    border-color: darken(@primary, 3%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: @w;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px 10px;
 }
 
-.disabled-link {
-    color: lighten(@b, 90%);
-    pointer-events: none;
+.btn-ccw:hover {
+    background-color: darken(@primary, 5%);
+    border-color: lighten(@primary, 2%);
+    color: @w;
+}
+
+.btn-ccw-lg {
+    background-color: @primary;
+    border-color: darken(@primary, 3%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: @w;
+    font-size: 18px;
+    line-height: 1.3333333;
+    padding: 10px 16px;
+}
+
+.btn-ccw-lg:hover {
+    background-color: darken(@primary, 5%);
+    border-color: lighten(@primary, 2%);
+    color: @w;
 }
 
 /*===========================================================
@@ -79,31 +111,59 @@ header h4.site-tag {
 }
 
 header #asc {
-
+    padding: 25px 0 20px 0;
 }
 
 header #asc ul {
-
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 header #asc ul > li {
-
+    color: @secondry;
+    font-size: 16px;
 }
 
 header #asc ul > li i {
+    color: @secondry;
+    font-size: 18px;
+    padding-right: 3px;
+}
 
+header #asc ul > li > a {
+    color: @secondry;
+    text-decoration: none;
+}
+
+header #asc ul > li > a:hover {
+    color: darken(@secondry, 15%);
 }
 
 header #asc ul > li > .dropdown-menu {
-
+    border: 0;
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(0, 151, 226, 0.3);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(0, 151, 226, 0.3);
+    box-shadow: 0px 7px 8px 0px rgba(0, 151, 226, 0.3);
 }
 
 header #asc ul > li > .dropdown-menu > li {
 
 }
 
+header #asc ul > li > .dropdown-menu > li > a:hover {
+    background-color: transparent;
+}
+
+header #asc ul > li.searchbtn {
+    
+}
+
+header #asc ul > li.searchbtn i {
+    color: @w;
+}
+
 /*===========================================================
-                    Search Styles
+                    Full page search Styles
 ===========================================================*/
 
 #search {

@@ -18,12 +18,40 @@ body {
   height: auto;
   padding: 0;
 }
-.grecaptcha-badge {
-  display: none;
+/*===========================================================
+                    Custom Element Styles
+===========================================================*/
+.btn-ccw {
+  background-color: #ef0000;
+  border-color: #e00000;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 5px 10px;
 }
-.disabled-link {
-  color: #e6e6e6;
-  pointer-events: none;
+.btn-ccw:hover {
+  background-color: #d60000;
+  border-color: #f90000;
+  color: #ffffff;
+}
+.btn-ccw-lg {
+  background-color: #ef0000;
+  border-color: #e00000;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.3333333;
+  padding: 10px 16px;
+}
+.btn-ccw-lg:hover {
+  background-color: #d60000;
+  border-color: #f90000;
+  color: #ffffff;
 }
 /*===========================================================
                     Typography 
@@ -34,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fe0000;
+  color: #ef0000;
   font-family: 'Audiowide', cursive;
 }
 p {
@@ -50,7 +78,7 @@ header {
   background-color: transparent;
 }
 header .site-title {
-  color: #fe0000;
+  color: #ef0000;
   font-family: 'Audiowide', cursive;
   font-size: 32px;
   letter-spacing: 1px;
@@ -62,8 +90,43 @@ header h4.site-tag {
   font-family: 'Kavivanar', cursive;
   font-size: 18px;
 }
+header #asc {
+  padding: 25px 0 20px 0;
+}
+header #asc ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+header #asc ul > li {
+  color: #0097e2;
+  font-size: 16px;
+}
+header #asc ul > li i {
+  color: #0097e2;
+  font-size: 18px;
+  padding-right: 3px;
+}
+header #asc ul > li > a {
+  color: #0097e2;
+  text-decoration: none;
+}
+header #asc ul > li > a:hover {
+  color: #006495;
+}
+header #asc ul > li > .dropdown-menu {
+  border: 0;
+  -webkit-box-shadow: 0px 7px 8px 0px rgba(0, 151, 226, 0.3);
+  -moz-box-shadow: 0px 7px 8px 0px rgba(0, 151, 226, 0.3);
+  box-shadow: 0px 7px 8px 0px rgba(0, 151, 226, 0.3);
+}
+header #asc ul > li > .dropdown-menu > li > a:hover {
+  background-color: transparent;
+}
+header #asc ul > li.searchbtn i {
+  color: #ffffff;
+}
 /*===========================================================
-                    Search Styles
+                    Full page search Styles
 ===========================================================*/
 #search {
   background-color: rgba(0, 0, 0, 0.7);
