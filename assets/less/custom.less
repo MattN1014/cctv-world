@@ -230,7 +230,6 @@ header #asc ul > li.searchbtn i {
     top: 15px;   
 }
 
-
 /*===========================================================
                     Navigation Styles
 ===========================================================*/
@@ -243,11 +242,47 @@ header #asc ul > li.searchbtn i {
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
+.navbar .navbar-nav > li {
+
+}
+
+.navbar .navbar-nav > li.home {
+}
+
+.navbar .navbar-nav > li.home > a {
+    color: @w;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+.navbar .navbar-nav > li.home .fa {
+    color: @w;
+    font-size: 26px;
+    padding: 2px 5px;
+}
+
+.navbar .navbar-nav > li > a {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a.active,
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    background-color: @primary;
+    color: @w;
+}
+
+
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
