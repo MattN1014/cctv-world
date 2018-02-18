@@ -134,3 +134,11 @@ header h4.site-tag {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #d9d9d9;
 }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
