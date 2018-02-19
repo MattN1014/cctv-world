@@ -332,7 +332,22 @@ header #asc ul > li.searchbtn i {
 
 footer {
     border-top: 1px solid lighten(@b, 85%);
-    font-size: 16px;
+    padding: 25px 0;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: @secondry;
+}
+
+footer a:hover {
+    color: @primary;
+    text-decoration: none;
 }
 
 footer #copyright {
@@ -369,6 +384,15 @@ footer #des-by {
 
     .navbar .navbar-nav {
         width: 100%;
+    }
+
+    footer #copyright {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    footer #des-by {
+        text-align: center;
     }
 }
 

@@ -264,7 +264,19 @@ header #asc ul > li.searchbtn i {
 ===========================================================*/
 footer {
   border-top: 1px solid #d9d9d9;
-  font-size: 16px;
+  padding: 25px 0;
+}
+footer p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: #0097e2;
+}
+footer a:hover {
+  color: #ef0000;
+  text-decoration: none;
 }
 footer #copyright {
   text-align: left;
@@ -292,5 +304,12 @@ footer #des-by {
   }
   .navbar .navbar-nav {
     width: 100%;
+  }
+  footer #copyright {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  footer #des-by {
+    text-align: center;
   }
 }
