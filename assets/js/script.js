@@ -1,3 +1,9 @@
+//Bootstrap menu 
+$(".navbar-toggle").on("click", function() {
+    $(this).toggleClass("active");
+});
+
+//Full page search function
 $(function () {
     $('a[href="#search"]').on('click', function(event) {
         event.preventDefault();
