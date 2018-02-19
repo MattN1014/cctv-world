@@ -260,7 +260,20 @@ header #asc ul > li.searchbtn i {
   transform: rotate(-45deg);
 }
 /*===========================================================
-                    Responsive Stuff
+                    Footer Styles
+===========================================================*/
+footer {
+  border-top: 1px solid #d9d9d9;
+  font-size: 16px;
+}
+footer #copyright {
+  text-align: left;
+}
+footer #des-by {
+  text-align: right;
+}
+/*===========================================================
+                    Responsive Styles
 ===========================================================*/
 @media only screen and (max-device-width: 736px) {
   header .logo {
