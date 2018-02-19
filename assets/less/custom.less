@@ -246,6 +246,10 @@ header #asc ul > li.searchbtn i {
     border-top: 1px solid lighten(@b, 85%);
 }
 
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -287,7 +291,71 @@ header #asc ul > li.searchbtn i {
     color: @w;
 }
 
+//This is for the toggle button on responsive menu
+.navbar .navbar-toggle {
+    background-color: @w;
+    border: 1px solid @secondry;
+}
 
-.navbar .navbar-collapse {
-    text-align: center;
+.navbar .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(67, 142, 204, 0.1);
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: @primary;
+}
+
+//This if to change the menu icons to cross when opened
+.navbar .navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar .navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar .navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar .navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+/*===========================================================
+                    Responsive Stuff
+===========================================================*/
+
+//This will effect things up to the size of iPhone 6 Plus
+@media only screen and (max-device-width: 736px) {
+    header .logo {
+        padding: 5px 0;
+    }
+
+    header .logo img {
+        display: block;
+        margin: auto;
+    }
+
+    header h4.site-tag {
+        font-size: 16px;
+    }
+
+    header #asc {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav {
+        width: 100%;
+    }
+}
+
+//this effects anything from the size of iphone 6 to ipad in landscape
+@media only screen and (max-device-width : 1024px)  {
+
 }
