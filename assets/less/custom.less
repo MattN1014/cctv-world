@@ -5,6 +5,7 @@
 @secondry: #0097E2;
 @b: #000000;
 @w: #ffffff;
+@light-grey: #fbfbfb;
 
 /*===========================================================
                     Site Wide Styles
@@ -29,7 +30,6 @@ body {
     height: auto;
     padding: 0;
 }
-
 
 /*===========================================================
                     Custom Element Styles
@@ -244,6 +244,7 @@ header #asc ul > li.searchbtn i {
     border-bottom: 0;
     border-bottom: 1px solid lighten(@b, 85%);
     border-top: 1px solid lighten(@b, 85%);
+    margin-bottom: 0;
 }
 
 .navbar .navbar-collapse {
@@ -325,6 +326,57 @@ header #asc ul > li.searchbtn i {
     top: -6px;
     transform: rotate(-45deg);
 }
+
+/*===========================================================
+                    Index / Frontpage styles
+===========================================================*/
+//in-top
+#in-top {
+    padding: 10px 0;
+}
+
+#in-top h1 {
+    text-align: center;
+}
+
+#in-top p {
+    line-height: 1.5em;
+    padding: 10px 0;
+}
+
+//in-top-banner 
+#in-top-banner {
+    background-color: @light-grey;
+    color: lighten(@b, 55%);
+    padding: 20px 0;
+}
+
+#in-top-banner .block-icon-left {
+    overflow: auto;
+}
+
+#in-top-banner .block-icon-left .icon {
+    float: left;
+    width: 30%;
+}
+
+#in-top-banner .block-icon-left .icon i {
+    color: @secondry;
+}
+
+#in-top-banner .block-icon-left .icon-content {
+    float: left;
+    width: 70%;
+}
+
+#in-top-banner .block-icon-left .icon-content h4 {
+    margin: 10px 0;
+}
+
+#in-top-banner .block-icon-left .icon-content h5 {
+    color: lighten(@b, 55%);
+}
+
 
 /*===========================================================
                     Footer Styles

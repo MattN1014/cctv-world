@@ -200,6 +200,7 @@ header #asc ul > li.searchbtn i {
   border-bottom: 0;
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #d9d9d9;
+  margin-bottom: 0;
 }
 .navbar .navbar-collapse {
   text-align: center;
@@ -258,6 +259,44 @@ header #asc ul > li.searchbtn i {
 .navbar .navbar-toggle.active .icon-bar:nth-of-type(3) {
   top: -6px;
   transform: rotate(-45deg);
+}
+/*===========================================================
+                    Index / Frontpage styles
+===========================================================*/
+#in-top {
+  padding: 10px 0;
+}
+#in-top h1 {
+  text-align: center;
+}
+#in-top p {
+  line-height: 1.5em;
+  padding: 10px 0;
+}
+#in-top-banner {
+  background-color: #fbfbfb;
+  color: #8c8c8c;
+  padding: 20px 0;
+}
+#in-top-banner .block-icon-left {
+  overflow: auto;
+}
+#in-top-banner .block-icon-left .icon {
+  float: left;
+  width: 30%;
+}
+#in-top-banner .block-icon-left .icon i {
+  color: #0097e2;
+}
+#in-top-banner .block-icon-left .icon-content {
+  float: left;
+  width: 70%;
+}
+#in-top-banner .block-icon-left .icon-content h4 {
+  margin: 10px 0;
+}
+#in-top-banner .block-icon-left .icon-content h5 {
+  color: #8c8c8c;
 }
 /*===========================================================
                     Footer Styles
