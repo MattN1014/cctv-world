@@ -20,7 +20,7 @@
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-md-5">
                         <div class="logo">
                             <img class="img-responsive" src="assets/img/logo.png">
                         </div>
@@ -28,7 +28,7 @@
                             The home to all of your surveillances needs.
                         </h4>
                     </div>
-                    <div class="col-lg-7 text-right">
+                    <div class="col-md-7 text-right">
                         <div id="asc">
                             <ul class="list-inline">
                                 <li class="dropdown">
