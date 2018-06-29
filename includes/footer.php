@@ -2,14 +2,14 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div id="copyright">
                             <p>
                                 Copyright &copy; <?php echo date('Y'); ?> | All rights reserved.
                             </p> 
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div id="des-by">
                             <p>
                                 Designed by <a href="https://www.mwn-design.co.uk" target="_blank">MWN Design</a>
