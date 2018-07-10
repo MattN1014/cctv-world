@@ -12,7 +12,16 @@
 				</p>
 			</div><!-- closes col -->
 			<div class="col-md-6">
-
+				<div id="in-top-carousel" class="carousel slide" data-ride="carousel">
+  					<div class="carousel-inner" role="listbox">
+  						<div class="item active">
+					      	<img src="..." alt="...">
+					      	<div class="carousel-caption">
+					        	...
+					      	</div>
+					    </div><!-- item -->
+  					</div><!-- carousel-inner -->
+				</div><!-- in-top-carousel -->
 			</div>
 		</div>
 	</div>
