@@ -273,6 +273,12 @@ header #asc ul > li.searchbtn i {
   line-height: 1.5em;
   padding: 10px 0;
 }
+#in-top #in-top-carousel .item > img {
+  display: block;
+  height: 210px;
+  margin: auto;
+  width: auto;
+}
 #in-top-banner {
   background-color: #fbfbfb;
   color: #8c8c8c;
