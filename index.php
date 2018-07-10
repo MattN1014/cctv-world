@@ -93,5 +93,31 @@
 	</div>
 </section><!-- closes in-top-banner -->
 
+<section id="prod-overview">
+	<div class="container-fluid">
+		<div class="col-md-4">
+			<div class="well">
+				<div class="prod-inner">
+					<img class="img-responsive" src="assets/img/cameras/hikvision-1.png">
+					<h3>
+						<a href="">
+							HIKVISION DS-2CE56D0T-IRMMF
+						</a>
+					</h3>
+					<h4 class="price">
+						£26.00
+					</h4>
+					<div class="btn-group">
+						<a class="btn btn-primary" href="">
+							Add to cart
+							<i class="fa fa-shopping-cart"></i>
+						</a>
+					</div>
+				</div><!-- prod-inner -->
+			</div><!-- well -->
+		</div><!-- col -->
+	</div><!-- closes container -->
+</section><!-- closes prod-overview section -->
+
 
 <?php include_once'includes/footer.php'; ?>
