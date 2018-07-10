@@ -305,6 +305,9 @@ header #asc ul > li.searchbtn i {
 #in-top-banner .block-icon-left .icon-content h5 {
   color: #8c8c8c;
 }
+#prod-overview {
+  padding: 20px 0;
+}
 #prod-overview .well {
   padding: 10px;
 }
@@ -337,12 +340,13 @@ footer {
   padding: 25px 0;
 }
 footer p {
+  color: #8c8c8c;
   font-size: 14px;
   margin: 0;
   padding: 0;
 }
 footer a {
-  color: #0097e2;
+  color: #8c8c8c;
 }
 footer a:hover {
   color: #ef0000;
