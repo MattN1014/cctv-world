@@ -270,6 +270,7 @@ header #asc ul > li.searchbtn i {
   text-align: center;
 }
 #in-top p {
+  color: #8c8c8c;
   line-height: 1.5em;
   padding: 10px 0;
 }
@@ -325,7 +326,7 @@ header #asc ul > li.searchbtn i {
 #prod-overview .prod-inner .btn-group {
   font-size: 14px;
 }
-#prod-overview .prod-inner .btn-group .btn > i {
+#prod-overview .prod-inner .btn-group .btn #prod-overview .prod-inner .btn-group .btn > i {
   margin-left: 4px;
 }
 /*===========================================================
