@@ -107,10 +107,18 @@
 					<h4 class="price">
 						£26.00
 					</h4>
+					<p class="stock">
+						<i class="fa fa-check"></i>
+						In Stock
+					</p>
 					<div class="btn-group">
 						<a class="btn btn-primary" href="">
 							Add to cart
 							<i class="fa fa-shopping-cart"></i>
+						</a>
+						<a class="btn btn-primary" href="">
+							View Details
+							<i class="fa fa-search"></i>
 						</a>
 					</div>
 				</div><!-- prod-inner -->
