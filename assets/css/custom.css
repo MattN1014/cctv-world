@@ -304,6 +304,30 @@ header #asc ul > li.searchbtn i {
 #in-top-banner .block-icon-left .icon-content h5 {
   color: #8c8c8c;
 }
+#prod-overview .well {
+  padding: 10px;
+}
+#prod-overview .prod-inner {
+  text-align: center;
+}
+#prod-overview .prod-inner img {
+  display: block;
+  height: 150px;
+  margin: auto;
+  width: auto;
+}
+#prod-overview .prod-inner h3 {
+  font-size: 20px;
+  margin: 10px auto;
+  text-align: left;
+  text-transform: capitalize;
+}
+#prod-overview .prod-inner .btn-group {
+  font-size: 14px;
+}
+#prod-overview .prod-inner .btn-group .btn > i {
+  margin-left: 4px;
+}
 /*===========================================================
                     Footer Styles
 ===========================================================*/
