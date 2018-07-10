@@ -15,11 +15,26 @@
 				<div id="in-top-carousel" class="carousel slide" data-ride="carousel">
   					<div class="carousel-inner" role="listbox">
   						<div class="item active">
-					      	<img src="..." alt="...">
-					      	<div class="carousel-caption">
-					        	...
-					      	</div>
+					      	<img class="img-responsive" src="assets/img/cameras/hikvision-1.png">
 					    </div><!-- item -->
+					    <div class="item">
+					    	<img class="img-responsive" src="assets/img/cameras/hikvision-2.png">
+					    </div>
+					    <div class="item">
+					    	<img class="img-responsive" src="assets/img/cameras/hikvision-3.png">
+					    </div>
+					    <div class="item">
+					    	<img class="img-responsive" src="assets/img/cameras/technomate-1.png">
+					    </div>
+					    <div class="item">
+					    	<img class="img-responsive" src="assets/img/cameras/technomate-2.png">
+					    </div>
+					    <div class="item">
+					    	<img class="img-responsive" src="assets/img/cameras/technomate-3.png">
+					    </div>
+					    <div class="item">
+					    	<img class="img-responsive" src="assets/img/drives/seagate.jpeg">
+					    </div>
   					</div><!-- carousel-inner -->
 				</div><!-- in-top-carousel -->
 			</div>
