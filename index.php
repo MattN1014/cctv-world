@@ -124,6 +124,35 @@
 				</div><!-- prod-inner -->
 			</div><!-- well -->
 		</div><!-- col -->
+		<div class="col-md-4">
+			<div class="well">
+				<div class="prod-inner">
+					<img class="img-responsive" src="assets/img/cameras/technomate-2.png">
+					<h3>
+						<a href="">
+							Technomate camera TM-103 WFIR
+						</a>
+					</h3>
+					<h4 class="price">
+						£60.00
+					</h4>
+					<p class="stock">
+						<i class="fa fa-times"></i>
+						Out of stock
+					</p>
+					<div class="btn-group">
+						<a class="btn btn-primary disabled" href="">
+							Add to cart
+							<i class="fa fa-shopping-cart"></i>
+						</a>
+						<a class="btn btn-primary " href="">
+							View Details
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</div><!-- prod-inner -->
+			</div><!-- well -->
+		</div><!-- col -->
 	</div><!-- closes container -->
 </section><!-- closes prod-overview section -->
 
