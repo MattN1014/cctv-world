@@ -95,64 +95,182 @@
 
 <section id="prod-overview">
 	<div class="container-fluid">
-		<div class="col-md-4">
-			<div class="well">
-				<div class="prod-inner">
-					<img class="img-responsive" src="assets/img/cameras/hikvision-1.png">
-					<h3>
-						<a href="">
-							HIKVISION DS-2CE56D0T-IRMMF
-						</a>
-					</h3>
-					<h4 class="price">
-						£26.00
-					</h4>
-					<p class="stock">
-						<i class="fa fa-check"></i>
-						In Stock
-					</p>
-					<div class="btn-group">
-						<a class="btn btn-primary" href="">
-							Add to cart
-							<i class="fa fa-shopping-cart"></i>
-						</a>
-						<a class="btn btn-primary" href="">
-							View Details
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-				</div><!-- prod-inner -->
-			</div><!-- well -->
-		</div><!-- col -->
-		<div class="col-md-4">
-			<div class="well">
-				<div class="prod-inner">
-					<img class="img-responsive" src="assets/img/cameras/technomate-2.png">
-					<h3>
-						<a href="">
-							Technomate camera TM-103 WFIR
-						</a>
-					</h3>
-					<h4 class="price">
-						£60.00
-					</h4>
-					<p class="stock">
-						<i class="fa fa-times"></i>
-						Out of stock
-					</p>
-					<div class="btn-group">
-						<a class="btn btn-primary disabled" href="">
-							Add to cart
-							<i class="fa fa-shopping-cart"></i>
-						</a>
-						<a class="btn btn-primary " href="">
-							View Details
-							<i class="fa fa-search"></i>
-						</a>
-					</div>
-				</div><!-- prod-inner -->
-			</div><!-- well -->
-		</div><!-- col -->
+		<div class="row">
+			<div class="col-md-4">
+				<div class="well">
+					<div class="prod-inner">
+						<img class="img-responsive" src="assets/img/cameras/hikvision-1.png">
+						<h3>
+							<a href="">
+								HIKVISION DS-2CE56D0T-IRMMF
+							</a>
+						</h3>
+						<h4 class="price">
+							£26.00
+						</h4>
+						<p class="stock">
+							<i class="fa fa-check"></i>
+							In Stock
+						</p>
+						<div class="btn-group">
+							<a class="btn btn-primary" href="">
+								Add to cart
+								<i class="fa fa-shopping-cart"></i>
+							</a>
+							<a class="btn btn-primary" href="">
+								View Details
+								<i class="fa fa-search"></i>
+							</a>
+						</div>
+					</div><!-- prod-inner -->
+				</div><!-- well -->
+			</div><!-- col -->
+			<div class="col-md-4">
+				<div class="well">
+					<div class="prod-inner">
+						<img class="img-responsive" src="assets/img/cameras/technomate-2.png">
+						<h3>
+							<a href="">
+								Technomate camera TM-103 WFIR
+							</a>
+						</h3>
+						<h4 class="price">
+							£60.00
+						</h4>
+						<p class="stock">
+							<i class="fa fa-times"></i>
+							Out of stock
+						</p>
+						<div class="btn-group">
+							<a class="btn btn-primary disabled" href="">
+								Add to cart
+								<i class="fa fa-shopping-cart"></i>
+							</a>
+							<a class="btn btn-primary " href="">
+								View Details
+								<i class="fa fa-search"></i>
+							</a>
+						</div>
+					</div><!-- prod-inner -->
+				</div><!-- well -->
+			</div><!-- col -->
+			<div class="col-md-4">
+				<div class="well">
+					<div class="prod-inner">
+						<img class="img-responsive" src="assets/img/cameras/technomate-3.png">
+						<h3>
+							<a href="">
+								Technomate TM-803 E IP 8MP Turret
+							</a>
+						</h3>
+						<h4 class="price">
+							£160
+						</h4>
+						<p class="stock">
+							<i class="fa fa-check"></i>
+							In Stock
+						</p>
+						<div class="btn-group">
+							<a class="btn btn-primary" href="">
+								Add to cart
+								<i class="fa fa-shopping-cart"></i>
+							</a>
+							<a class="btn btn-primary" href="">
+								<i class="fa fa-search"></i>
+								View details
+							</a>
+						</div>
+					</div><!-- prod-inner -->
+				</div><!-- well -->
+			</div><!-- col -->
+			<div class="col-md-4">
+				<div class="well">
+					<div class="prod-inner">
+						<img class="img-responsive" src="assets/img/dvr/technomate-1.png">
+						<h3>
+							<a href="">
+								Technomate TM-404 A-HD M2 DVR
+							</a>
+						</h3>
+						<h4 class="price">
+							£90
+						</h4>
+						<p class="stock">
+							<i class="fa fa-check"></i>
+							In stock
+						</p>
+						<div class="btn btn-group">
+							<a class="btn btn-primary" href="">
+								Add to cart
+								<i class="fa fa-shopping-cart"></i>
+							</a>
+							<a class="btn btn-primary" href="">
+								<i class="fa fa-search"></i>
+								View details
+							</a>
+						</div>
+					</div><!-- prod-inner -->
+				</div><!-- well -->
+			</div><!-- col -->
+			<div class="col-md-4">
+				<div class="well">
+					<div class="prod-inner">
+						<img class="img-responsive" src="assets/img/dvr/technomate-2.png">
+						<h3>
+							<a href="">
+								Technomate TM-708 NVR 8POE
+							</a>
+						</h3>
+						<h4 class="price">
+							£230
+						</h4>
+						<p class="stock">
+							<i class="fa fa-check"></i>
+							In stock
+						</p>
+						<div class="btn btn-group">
+							<a class="btn btn-primary" href="">
+								Add to cart
+								<i class="fa fa-shopping-cart"></i>
+							</a>
+							<a class="btn btn-primary" href="">
+								<i class="fa fa-search"></i>
+								View details
+							</a>
+						</div>
+					</div><!-- prod-inner -->
+				</div><!-- well -->
+			</div><!-- col -->
+			<div class="col-md-4">
+				<div class="well">
+					<div class="prod-inner">
+						<img class="img-responsive" src="assets/img/dvr/technomate-1.png">
+						<h3>
+							<a href="">
+								Technomate TM-516 HD M2 DVR
+							</a>
+						</h3>
+						<h4 class="price">
+							£200
+						</h4>
+						<p class="stock">
+							<i class="fa fa-check"></i>
+							In stock
+						</p>
+						<div class="btn btn-group">
+							<a class="btn btn-primary" href="">
+								Add to cart
+								<i class="fa fa-shopping-cart"></i>
+							</a>
+							<a class="btn btn-primary" href="">
+								<i class="fa fa-search"></i>
+								View details
+							</a>
+						</div>
+					</div><!-- prod-inner -->
+				</div><!-- well -->
+			</div><!-- col -->
+		</div><!-- row -->
 	</div><!-- closes container -->
 </section><!-- closes prod-overview section -->
 
